@@ -1,0 +1,9 @@
+- HTML 시작? html5 또는 ! 쓰고 + Enter
+- 한줄삭제 : ctrl+shift+K
+- 복사 : shift + alt + 위아래 방향키
+- 이동 : alt + 위아래 방향키
+- 화면간 이동 : ctrl + pgUp/pgDn
+- 화면 닫기 : ctrl + F4
+- 폴더창 열기/닫기 : ctrl + B
+- 브라우저 보기(확장팩설치시) : alt + B
+- 주석달기 : ctrl + /
