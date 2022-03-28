@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>중앙일보 사이트 흉내내기</title>
+    <style>
+        ul, li {
+            list-style-type: none;
+        }
+        #container {
+            width: 1300px;
+            margin: 0px auto;
+        }
+        header > div {
+            height: 130px;
+        }
+        #joongImg {
+            float: left;
+            height: 130px;
+        }
+        .headerNav {
+            float: right;
+            text-align: right;
+        }
+        #ul1 {
+            float: right;
+            font-size: 13px;
+            margin-top: 20px;
+            
+        }
+        #ul1 > li > a {
+            color: slategrey;
+            text-decoration: none;
+        }
+        #ul2 {
+            margin-top: 60px;
+            margin-right: 10px;
+            font-weight: bolder;
+        }
+        #ul2 > li > a {
+            color: black;
+            text-decoration: none;
+        }
+        nav > ul > li {
+            float: left;
+            padding-left: 12px;
+        }
+        #Header2 {
+            clear: both;
+            text-align: center;
+            height: 70px;
+            border-top: 1px solid orange;
+            border-bottom: 4px solid orangered;
+        }
+        #Header2 > article > span {
+            font-weight: bold;
+        }
+        body {
+            margin: 0px;
+        }
+        #article1 {
+            float: left;
+            text-align: left;
+            margin-top: 13px;
+            margin-right: 60px;
+        }
+        #article2, #article3, #article4, #article5 {
+            float: left;
+            text-align: left;
+            margin-top: 13px;
+            margin-right: 85px;
+            border-left: 1px solid lightgrey;
+            padding-left: 20px;
+        } 
+        .haha {
+            text-decoration: none;
+            color: gray;
+        }
+        #layer3, #layer4 {
+            width: 300px;
+            height: 300px;
+        }
+        #layer1 {
+            width: 300px;
+            height: 600px;
+            float: left;
+            border-bottom: 3px solid orangered;
+        }
+        #article6 {
+            padding-top: 20px;
+            border-bottom: 1px solid lightgrey;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            padding-bottom: 40px;
+        }
+        #article6 > a , #article7 > a {
+            color: black;
+            text-decoration: none;
+            font-weight: bolder;
+            margin-right: 10px;
+            font-size: 19px;
+        }
+        #article6 > a:hover, #article7 > a:hover {
+            color: gray;
+        }
+        #article7 > a {
+        float: left;
+        }
+        #layer2 {
+            float: left;
+            width: 700px;
+            height: 600px;
+            border-bottom: 3px solid orangered;
+        }
+        #article8 {
+            padding-top: 20px;
+            text-align: center;
+        }
+        .main {
+            font-weight: bolder; 
+            text-decoration: none;
+            color: black;
+        }
+        #layer3 {
+            height: 475px;
+            float: right;
+        }
+        #article9 > a, #article10 > a, #article11 > a, #article12 > a {
+        float: left;
+        text-decoration: none;
+        font-weight: bold;
+        }
+        #article9 {
+            padding-top: 15px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid lightgrey;
+            margin-bottom: 15px;
+        }
+        #article10 {
+            padding-bottom: 20px;
+            border-bottom: 1px solid lightgrey;
+            margin-bottom: 15px;
+        }
+        #article11 {
+            padding-bottom: 20px;
+            border-bottom: 1px solid lightgrey;
+            margin-bottom: 15px;
+        }
+        #layer4 {
+            height: 110px;
+            float: right;
+            border-top: 1px solid lightgrey;
+            border-bottom: 3px solid rgb(0, 181, 187);
+            padding-top: 15px;
+        }
+        #layer5 {
+            float: left;
+            width: 1000px;
+        }
+        footer {
+            height: 100px;
+            background-color: lightcoral;
+            text-align: center;
+            padding-top: 30px;
+            font-size: 15px;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div id="joongImg">
+                <a href="0325.html" target="_top"><img src="../../images/jo1.png" height="130px"/></a>
+            </div>
+            <nav class="headerNav">
+                <ul id="ul1" >
+                    <li><a href="https://japanese.joins.com/" target="_top"> 日文</a> |</li>
+                    <li><a href="https://chinese.joins.com/" target="_top"> 中文</a> |</li>
+                    <li><a href="https://koreajoongangdaily.joins.com/" target="_top"> ENG</a> &nbsp;&nbsp;&nbsp;&nbsp;</li>
+                    <li><a href="https://account.joongang.co.kr/login?targetURL=https%3A%2F%2Fwww.joongang.co.kr%2F" target="_top">로그인</a> |</li>
+                    <li><a href="https://account.joongang.co.kr/join?targetURL=https%3A%2F%2Fwww.joongang.co.kr%2F" target="_top">회원가입</a></li>
+                </ul>
+                <ul id="ul2">
+                    <li style="margin-top: 13px;"><a href="https://www.joongang.co.kr/opinion" target="_top">오피니언&nbsp;&nbsp;</a></li>
+                    <li style="margin-top: 13px;"><a href="https://www.joongang.co.kr/politics" target="_top">정치&nbsp;&nbsp;</a></li>
+                    <li style="margin-top: 13px;"><a href="https://www.joongang.co.kr/money" target="_top">경제&nbsp;&nbsp;</a></li>
+                    <li style="margin-top: 13px;"><a href="https://www.joongang.co.kr/society" target="_top">사회&nbsp;&nbsp;</a></li>
+                    <li style="margin-top: 13px;"><a href="https://www.joongang.co.kr/world" target="_top">국제&nbsp;&nbsp;</a></li>
+                    <li style="margin-top: 13px;"><a href="https://www.joongang.co.kr/culture" target="_top">문화&nbsp;&nbsp;</a></li>
+                    <li style="margin-top: 13px;"><a href="https://www.joongang.co.kr/sports" target="_top">스포츠&nbsp;&nbsp;</a></li>
+                    <li style="margin-top: 13px;"><a href="https://www.joongang.co.kr/lifestyle" target="_top">라이프&nbsp;&nbsp;</a></li>
+                    <li style="margin-top: 13px;"><a href="https://www.joongang.co.kr/people" target="_top">피플&nbsp;&nbsp;</a></li>
+                    <li><a href="https://www.joongang.co.kr/" target="_top"><img src="../../images/jo3.png" /></a></li>
+                </ul>
+            </nav>
+            <div id="Header2">
+                <article id="article1"><span style="color : orangered; font-size: 15px;">ISSUE PICK</span><br/><span style="font-size: 13px; font-weight: lighter ;">2022년 3월 27일(일)</span></article>
+                <article id="article2"><span>사설·칼럼</span><br/><span style="font-size: 15px; font-weight: lighter ;"><a href="https://www.joongang.co.kr/opinion" target="_top" class="haha">세상을 보는 창, 품격이 다른 해설</a></span></article>
+                <article id="article3"><span>윤석열의 사람들</span><br/><span style="font-size: 15px; font-weight: lighter ;"><a href="https://www.joongang.co.kr/election2022/people" target="_top" class="haha">새로운 한국, 새로운 '키맨'</a></span></article>
+                <article id="article4"><span>우크라이나 침공</span><br/><span style="font-size: 15px; font-weight: lighter ;"><a href="https://www.joongang.co.kr/issue/11540" target="_top" class="haha">푸틴의 전쟁, 전세계 충격</a></span></article>
+                <article id="article5"><span>BOOK</span><br/><span style="font-size: 15px; font-weight: lighter ;"><a href="https://www.joongang.co.kr/culture/book" target="_top" class="haha">이번주 당신의 서재</a></span></article>
+            </div>
+        </header>
+        <section>
+            <div id="content">
+                <div id="layer1">
+                    <article id="article6">
+                        <img src="../../images/jo5.png" width="280px" style="margin-bottom: 15px; cursor: pointer;"/>
+                        <a href="https://www.joongang.co.kr/article/25058644" target="_top" ><br/>임종석·조국·홍남기… 동부지검<br/> 캐비넷 속 '블랙리스트' 심상찮다<br/><span style="font-size: 12px; color: grey;">앞서 환경부 블랙리스트 의혹을 수사했던 주진우<br/> 전 부장검사가 같은 해 8월 좌천성 인사 ...</span></a>
+                    </article>
+                    <article id="article7">
+                        <a href="https://www.joongang.co.kr/article/25058601" target="_top" style="font-size: 15px; margin-right: 45px;">"프레스룸 냉장고부터<br/> 채워라"…언론에 날세웠던<br/> 尹이 변했다</a>
+                        <a href="https://www.joongang.co.kr/article/25058601" target="_top"><img src="../../images/jo6.png" /></a>
+                        <a href="https://www.joongang.co.kr/article/25058627" target="_top" style="font-size: 13px; font-weight: lighter;">‣ 유통 '투자 족쇄' 걷고, 중처법 다듬고…尹노동 개혁 10가지</a>
+                    </article>
+                </div>
+                <div id="layer2">
+                    <article id="article8">
+                        <a href="https://www.joongang.co.kr/article/25058615" target="_top"><img src="../../images/jo7.png" width="600px"/></a>
+                        <a href="https://www.joongang.co.kr/article/25058615" target="_top" class="main" style="font-size: 30px;"><br/>"현 정부 계승할 건 끌고가야"<br/>尹입에서 의외의 주문 나왔다</a>
+                        <a href="https://www.joongang.co.kr/article/25058615" target="_top" class="main" style="font-size: 15px;"><br/>사사건건 강대강 대치…ABC 비판받던 尹, 민생·협치 강조</a>
+                    </article>
+                </div>
+                <div id="layer3">
+                    <article id="article9">
+                        <a href="https://www.joongang.co.kr/article/25058634" target="_top" style="font-size: 15px; margin-right: 30px; color: black;"><span style="font-weight:bolder; color: orangered; font-size: 13px;">팩플</span><br/>1800조 커넥티드카 시장,<br/> 현대차 손잡은 쏘카의 셈법은? </a>
+                        <a href="https://www.joongang.co.kr/article/25058634" target="_top"><img src="../../images/jo8.png" class="article9Img"/></a>
+                        <img src="../../images/jo12.png" />
+                    </article>
+                    <article id="article10">
+                        <a href="https://www.joongang.co.kr/article/25058467" target="_top" style="font-size: 15px; margin-right: 30px; color: black; margin-right: 45px;"><span style="font-weight:bolder; color: orangered; font-size: 13px;">도전! 경제뉴스 퀴즈왕</span><br/>한은·증시·부동산의 미래…<br/>이거 맞춰야 '쩐의전쟁' 승자</a>
+                        <a href="https://www.joongang.co.kr/article/25058467" target="_top"><img src="../../images/jo9.png"/></a>
+                        <img src="../../images/jo12.png" /></article>
+                    <article id="article11">
+                        <a href="https://www.joongang.co.kr/article/25058285" target="_top" style="font-size: 15px; margin-right: 30px; color: black; margin-right: 45px;"><span style="font-weight:bolder; color: orangered; font-size: 13px;">도전! 경제뉴스 퀴즈왕</span><br/>"워싱턴도 사정권"…北 괴물<br/>ICBM 발사, 각국 반응은</a>
+                        <a href="https://www.joongang.co.kr/article/25058285" target="_top"><img src="../../images/jo10.png"/></a>
+                        <img src="../../images/jo12.png" /></article>
+                    </article>
+                    <article id="article12">
+                        <a href="https://www.joongang.co.kr/article/25057958" target="_top" style="font-size: 15px; margin-right: 30px; color: black; margin-right: 30px;"><span style="font-weight:bolder; color: orangered; font-size: 13px;">도전! 골프 퀴즈왕</span><br/>'억'이 날아간다…골프 역사상<br/>가장 비싼 규칙 위반은</a>
+                        <a href="https://www.joongang.co.kr/article/25057958" target="_top"><img src="../../images/jo11.png"/></a>
+                    </article>
+                </div>
+                <div id="layer4">
+                    <a href="https://relief.or.kr/support/view_p.php?board_idx=12418&board_type=NTC12" target="blank"><img src="../../images/jo13.png" width="300px"/></a>
+                </div>
+                <div id="layer5">
+                    <img src="../../images/jo14.png" width="1000px"/>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div>Copyright : 2022. 03. 27. Design by Jisu lee</div>
+            <div><address>ljs1877@gamail.com</address></div>
+        </footer>
+    </div>
+</body>
+</html>
