@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test9.html</title>
+    <style>
+        div {margin: 20px;}
+        /* #pContent {
+            visibility: hidden;  hidden은 영역은 확보되면서 화면에서 감춰진다. 
+        } */
+        .aa2 {display: none;}  /*none은 영역확보가 되지 않는다. 아예 지운 효과.. 기본의 영역까지 함께 삭제시킨다.*/
+        .aa5, .aa6 {
+            width: 400px;
+            border: 2px solid gray;
+        }
+        .aa11 {              /*span태그 안에 들어가기때문에 원래는 lnline이다.*/
+            display: block;
+            width: 100px;
+            border: 1px solid blue;
+            margin: 10px;
+            padding: 15px;
+        }
+        .aa12 {              
+            display: inline;
+            width: 100px;
+            border: 1px solid rgb(226, 43, 195);
+            margin: 10px;
+            padding: 15px;
+        }
+        .aa13 {              
+            display: inline-block;
+            width: 100px;
+            border: 1px solid rgb(94, 214, 25);
+            margin: 10px;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Display 속성</h2>
+    <p>DIsplay속성은 각각의 요소를 어떻게 보여줄지를 결정한다.</p>
+    <p id="pContent">속성처리값? visibility(보여주기속성 - 기본값) : hidden(감추기) / inherit(부모요소의 값을 상속받는다.)</p>
+    <p>
+        none : 보여주지 않을 때..<br/>
+        inline : 인라인상태(자신의 고유영역만 확보) - 단어의 의미로 해석?<br/>
+        block : 박스영역을 차지하는 속성 - 문단의 의미로 해석?<br/>
+        lnline-block : inline과 block의 합성
+    </p>
+    <hr/>
+    <h2>사용예제</h2>
+    <div class="aa1">1.안녕!!!</div>
+    <div class="aa2">2.안녕!!!</div>
+    <div class="aa3">3.안녕!!!</div>
+    <div class="aa4">4.안녕!!!</div>
+    <hr/>
+    <h2>Block속성</h2>
+    <div class="aa5">
+        5.Block입니다.<span class="aa11">aa11.</span><font color="red">5.안녕!!!</font>
+        안녕...안녕...안녕...
+    </div>
+    <hr/>
+    <h2>Inline속성</h2>
+    <div class="aa6">
+        6.Inline입니다..<span class="aa12">aa12.</span><font color="blue">6.안녕!!!</font>
+        안녕...안녕...안녕...
+    </div>
+    <hr/>
+    <h2>lnline-block속성</h2>
+    <div class="aa7">
+        7.lnline-block입니다.<span class="aa13">aa13.</span><font color="green">7.안녕!!!</font>
+        안녕...안녕...안녕...
+    </div>
+</body>
+</html>
